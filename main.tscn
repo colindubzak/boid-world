@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c4k42wqrh4of4"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_7dm0k"]
+
+[node name="Main" type="Node3D" unique_id=1199602972]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=550477860]
+transform = Transform3D(1, 0, 0, 0, 0.66021144, 0.7510798, 0, -0.7510798, 0.66021144, 0, 1.1903839, 0.2584828)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1528951763]
+transform = Transform3D(1, 0, 0, 0, 0.8317507, 0.5551493, 0, -0.5551493, 0.8317507, 0, 0.53150856, 1.009298)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=867596474]
+mesh = SubResource("PlaneMesh_7dm0k")
